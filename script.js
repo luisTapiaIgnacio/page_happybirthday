@@ -132,7 +132,7 @@ class Galaxy {
   }
 
   updateStarCount() {
-      this.starCountElement.textContent = `Estrellas: ${this.stars.length}`;
+      this.starCountElement.textContent = `Atte: Luis Tapia Ig.`;
   }
 
   setupEventListeners() {
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // PERSONALIZACIÓN
   const NOMBRE = "Lourdes";
-  const EDAD = 28;
+  const EDAD = 0;
   const FOTO_URL = "img/20211222_065907.jpg"; // Ruta local o URL
 
   const nombreEl = document.getElementById('nombre');
